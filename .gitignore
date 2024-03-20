@@ -1,0 +1,5 @@
+.idea/
+__pycache__/
+venv/
+data_config/maps/*.npy
+sample_image/*.avi

@@ -1,0 +1,283 @@
+/*///////////////////////////////////////////////////////////////////////////////////////////////// */
+QStackedWidget{
+    background-color: rgb(52, 56, 64);
+    color: rgb(220, 220, 220);
+    font: 10pt "Segoe UI";
+    border:none;
+}
+
+#frame_source_configuration{
+    background-color: rgb(52, 56, 64);
+    color: rgb(220, 220, 220);
+    font: 10pt "Segoe UI";
+    border:none;
+}
+
+#frame .QLabel{
+    color: rgb(240,240,240);
+    font: 36pt "Segoe UI";
+}
+
+#frame_source_configuration .QLabel{
+    color: rgb(240,240,240);
+}
+
+/*page_surrounding_view */
+#show_bird_views .QLabel{
+    color: rgb(240,240,240);
+}
+
+QToolTip {
+    font: 9pt "Segoe UI";
+	color: #ffffff;
+	background-color: rgba(33, 37, 43, 180);
+	background-image: none;
+	background-position: left center;
+    background-repeat: no-repeat;
+	border: none;
+	border-left: 5px solid rgb(255, 121, 198);
+	text-align: left;
+	padding-left: 5px;
+	margin: 0px;
+}
+
+/* ////////////////////////////// QSlider Area ////////////////////////////// */
+QSlider::groove:horizontal {
+    border-radius: 0px;
+    height: 10px;
+	margin: 0px;
+	background-color: rgb(80, 80, 80);
+}
+
+QSlider::groove:horizontal:hover {
+	background-color: rgb(55, 62, 76);
+}
+
+QSlider::handle:horizontal {
+    background-color: rgb(189, 147, 249);
+    border: none;
+    height: 10px;
+    width: 15px;
+    margin: 0px;
+	border-radius: 0px;
+}
+
+QSlider::handle:horizontal:hover {
+    background-color: rgb(195, 155, 255);
+}
+
+QSlider::handle:horizontal:pressed {
+    background-color: rgb(255, 121, 198);
+}
+
+/* ////////////////////////////// Check camera Available ////////////////////////////// */
+QDialog{
+    background-color: rgb(52, 56, 64);
+}
+
+QDialog .QLabel{
+    font: 9pt "Segoe UI";
+    color: rgb(240,240,240);
+}
+
+/* ////////////////////////////// QSpinBox Area ////////////////////////////// */
+QSpinBox{
+    border-radius: 3px;
+    border: 2px solid rgb(200, 200, 200);
+    padding: 5px;
+    padding-left:5px;
+    font: 9pt "Segoe UI";
+}
+
+QSpinBox::hover{
+    border: 2px solid rgb(52, 59, 72);
+}
+
+QSpinBox::up-button {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+
+    width: 13px;
+    height: 10px;
+    border-left-width: 1px;
+	border-left-color: rgb(200,200,200);
+	border-left-style: solid;
+}
+
+QSpinBox::down-button {
+    subcontrol-origin: padding;
+    subcontrol-position: bottom right;
+    width: 13px;
+    height: 10px;
+
+    border-left-width: 1px;
+	border-left-color: rgb(200,200,200);
+	border-left-style: solid;
+}
+
+QDoubleSpinBox{
+    border-radius: 3px;
+    border: 2px solid rgb(200, 200, 200);
+    padding: 5px;
+    padding-left:5px;
+    font: 9pt "Segoe UI";
+}
+
+QDoubleSpinBox::hover{
+    border: 2px solid rgb(52, 59, 72);
+}
+
+QDoubleSpinBox::up-button {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+
+    width: 13px;
+    height: 10px;
+    border-left-width: 1px;
+	border-left-color: rgb(200,200,200);
+	border-left-style: solid;
+}
+
+QDoubleSpinBox::down-button {
+    subcontrol-origin: padding;
+    subcontrol-position: bottom right;
+    width: 13px;
+    height: 10px;
+
+    border-left-width: 1px;
+	border-left-color: rgb(200,200,200);
+	border-left-style: solid;
+}
+
+
+#frame_btn_close_calib_surrounding_view .QLabel{
+    color: rgb(240,240,240);
+}
+
+#image_view .QLabel{
+    color: rgb(240,240,240);
+}
+
+/*page_calibration_bird_view */
+#frame_configuration_bird .QLabel{
+   background-color: #373A40;
+   color: rgb(240,240,240);
+}
+
+#frame_calibration_bird .QLabel{
+   color: rgb(240,240,240);
+}
+
+#frame_configuration_bird .QRadioButton{
+   color: rgb(240,240,240);
+}
+
+#frame_configuration_bird .QRadioButton::indicator::checked{
+    border: 3px solid;
+    border-color: white;
+    border-radius: 6px;
+    background-color: rgb(0,116,188);
+}
+
+#select_point_bird .QLabel{
+   background-color: #373A40;
+   color: rgb(240,240,240);
+}
+
+#frame_button .QPushButton{
+    background-color: rgb(25, 70, 102);
+}
+
+/*close button every frame*/
+#frame_btn_close_bird .QPushButton{
+    background-color: rgb(25, 70, 102);
+}
+
+#frame_btn_close_calib_surrounding_view .QPushButton{
+    background-color: rgb(25, 70, 102);
+}
+
+#frame_btn_close_side .QPushButton{
+    background-color: rgb(25, 70, 102);
+}
+
+#frame_btn_close_change_camera .QPushButton{
+    background-color: rgb(25, 70, 102);
+}
+
+#frame_dash_view .QPushButton{
+    background-color: rgb(25, 70, 102);
+}
+
+#frame_dash_view .QLabel{
+    border-color: rgb(255,0,0);
+}
+
+/*page_calibration_surrounding_view */
+#page_original_images .QLabel{
+    color: rgb(240,240,240);
+}
+
+
+/*page_calibration_surrounding_view */
+#frame_configuration_surrounding_view .QLabel{
+    color: rgb(240,240,240);
+}
+
+#frame_calib_surrounding_view.QLabel{
+    color: rgb(240,240,240);
+}
+
+/*page_calibration_surrounding_view */
+#frame_configuration_wide {
+    color: rgb(240,240,240);
+}
+
+#frame_calibration_wide_view .QLabel{
+    color: rgb(240,240,240);
+}
+
+#frame_configuration_wide .QLabel{
+    color: rgb(240,240,240);
+}
+
+/*page_calibration_surrounding_view */
+#frame_configuration_side .QLabel{
+    color: rgb(240,240,240);
+}
+
+#frame_calibration_side .QLabel{
+    color: rgb(240,240,240);
+}
+
+#frame_configuration .QLabel{
+    color: rgb(240,240,240);
+}
+
+/*page_calibration_surrounding_view */
+#frame_camera_sources .QLabel{
+    color: rgb(240,240,240);
+}
+
+#frame_dash_view .QLabel{
+    color: rgb(240,240,240);
+}
+
+#frame_change_camera_form .QLabel{
+    color: rgb(240,240,240);
+}
+
+
+#frame_button{
+    background-color: rgb(52, 56, 64);
+    border:none;
+}
+
+#page_calibration_view .QToolButton{
+    /*background-color: #194666;*/
+    background-color: #194655;
+    color: #FFFFFF;
+    border-radius: 0px;
+    padding-top: 50px;
+    padding-bottom: 1px;
+}

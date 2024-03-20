@@ -1,0 +1,3 @@
+[submodule "moildev"]
+	path = moildev
+	url = https://github.com/McutOIL/moildev.git

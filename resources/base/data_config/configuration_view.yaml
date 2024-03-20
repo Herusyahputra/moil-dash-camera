@@ -1,0 +1,42 @@
+anypoint_mode_2:
+  alpha: 30
+  beta: 4
+  crop_bottom: 0.7
+  crop_top: 0.098
+  zoom: 1
+driver:
+  alpha: -63
+  beta: -25
+  roll: -124
+  zoom: 4.9
+left_window:
+  alpha: 104
+  beta: -110
+  roll: -10
+  zoom: 4.9
+original:
+  rotate: 5
+panorama:
+  alpha: 145.5
+  alpha_from: 0.0
+  alpha_max: 101
+  beta: -5.0
+  crop_bottom: 0.972
+  crop_left: 0.259
+  crop_right: 0.826
+  crop_top: 0.237
+right_window:
+  alpha: 68
+  beta: 84
+  roll: 3
+  zoom: 4.4
+second_driver:
+  alpha: -63
+  beta: 49
+  roll: 125
+  zoom: 4.9
+x_panorama:
+  alpha_max: 110
+  alpha_min: 33
+  crop_bottom: 0.721
+  crop_top: 0.52

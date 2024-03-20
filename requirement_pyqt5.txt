@@ -1,0 +1,5 @@
+PyQt5
+pyexiv2
+pyyaml
+screeninfo
+opencv-python-headless
